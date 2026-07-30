@@ -8,7 +8,6 @@
 
 
           File                                      FileType    SheetCount    Rows     Columns    UniquePlants    PlotsRepresented             
- **LICOR 600 Files**
 "DATA_DUMP_1781531064037.csv"                      ".csv"           1          245      378            0                 0
 06-12 
 
