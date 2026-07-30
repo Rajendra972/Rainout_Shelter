@@ -37,44 +37,8 @@ These files contain overlapping or cumulative exports. They should not be stacke
 Recommended duplicate key:
 
 ```text
-Barcode + Date + Time + gsw + PhiPS2 + ETR       
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
+Barcode + Date + Time + gsw + PhiPS2 + ETR          
+                   
               
               File                   UniquePlants    PlotsRepresented   
     _________________________________    ____________    ________________  
