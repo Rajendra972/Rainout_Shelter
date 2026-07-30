@@ -1,3 +1,81 @@
+
+       # Rainout Shelter Maize Physiology Dataset
+
+This repository contains field and laboratory datasets collected during the 2026 maize rainout-shelter experiment. 
+
+The main datasets were generated using:
+- LI-600 Porometer/Fluorometer
+- LI-6800 Portable Photosynthesis System
+- MultiSpeQ
+- Dynamic-light-response measurements
+
+The experiment included:
+- 27 field plots
+- 3 replications
+- 3 intended moisture zones
+- 3 maize hybrids
+- Up to 12 plants per plot
+
+The expected maximum number of uniquely barcoded plants was 324.
+
+---
+
+# 1. LI-600 Data
+
+## 1.1 Files with the broadest field coverage
+
+| File | Rows | Columns | Unique plants | Plots represented |
+|---|---:|---:|---:|---:|
+| `DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
+| `DATA_DUMP_1784213332450.csv` | 3,766 | 257 | 253 | 27 |
+| `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | 11,604 | 257 | 265 | 27 |
+| `LI600_Rain_out_All_Data_New.csv` | 5,597 | 261 | 265 | 27 |
+| `Data Collection.xlsx` | 16,734 across 7 sheets | up to 378 | 257 | 27 |
+
+These files contain overlapping or cumulative exports. They should not be stacked directly without duplicate removal.
+
+Recommended duplicate key:
+
+```text
+Barcode + Date + Time + gsw + PhiPS2 + ETR       
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
               File                   UniquePlants    PlotsRepresented   
     _________________________________    ____________    ________________  
 
@@ -72,3 +150,8 @@ Saturation Check
 
 *Dyanamic Light Data* non-steady light intensity 
 "2026-07-23-0940_light-dynamics (2).xlsx"          ".xlsx"          2          121      296            0                 0 
+
+
+
+
+
