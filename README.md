@@ -95,33 +95,111 @@ Each record contains the following variables:
 "LI600_Rain_out_All_Data_New.csv"                  ".csv"           1         5597      261          265                27  
 *TO UPDATE*
 
+## 2. LI-6800 Data
 
-## 2. LI6800 Data 
-"Pretasseling.xlsx"                                ".xlsx"         11          176      296            0                 0  
-"Tassel_Data.xlsx"                                 ".xlsx"         14          206      296            0                 0 
-"Blister.xlsx"                                     ".xlsx"         11          158      296            0                 0 
-"Milk_stage_data.xlsx"                             ".xlsx"          6           87      296            0                 0
+### Pretasseling.xlsx
 
-"Saturation_check.xlsx"                            ".xlsx"          2           40      296            0                 0  
+- **Format:** Excel (.xlsx)
+- **Sheets:** 11
+- **Rows:** 176
+- **Columns:** 296
 
- Pre-tassel
-Sheets: 11
-Sheet names: 7_3_Plt23_R3_M3_H2_P3_BT, 7_3_Plt_17_R2_M1_H1_P4_BT, 7_3_Plt7_R1_M2_H1_P8_BT, 7_2_Plt1_R1_M2_H3_P12_BT, 7_2_Plt10_R2_M3_H3_P11_BT, 7_2_Plt19_R3_M1_H1_P2_BT, 7_1_Plt__R3_M3_H2_P7_BT, 7_1_Plt16_R2_M1_H2_P8_BT, 7_1_Plt8_R1_M2_H3_P2_BT, 6_30_Plt_15_R2_M2_H1_5, 6_30_Plt_16_M1_P8_H2_P8
+**Sheet Names**
 
-Tassel Data: 14
-Sheet names: 7_13_Plt5_R1_M1_H1_P11_Tsl, 7_13_Plt24_R3_M3_H3_P2_Tsl, 7_12_Plt15_R2_M2_H1_P5_Tsl, 7_12_Plt23_R3_M3_H2_P3_Tsl, 7_12_Plt19_R3_H1_M1_P2_Tsl, 7_10_Plt10_R2_M3_H3_P12_Tsl, 7_10_Plt6_R1_M1_H2_P8_Tsl, 7_10_Plt16_R2_M1_H2_P8_Tsl, 7_8_Plt24_R3_M3_H3_P2_Tsl, 7_8_Plt10_R2_M3_H3_P11_Tsl, 7_8_Plt1_R1_M2_H3_P1_Tsl, 7_7_Plt1_R1_M2_H3_P12_Tsl, 7_7_Plt6_R1_M1_H2_P8_Tsl, 7_7_Plt8_R1_M2_H3_P2_Tsl
+- 7_3_Plt23_R3_M3_H2_P3_BT
+- 7_3_Plt17_R2_M1_H1_P4_BT
+- 7_3_Plt7_R1_M2_H1_P8_BT
+- 7_2_Plt1_R1_M2_H3_P12_BT
+- 7_2_Plt10_R2_M3_H3_P11_BT
+- 7_2_Plt19_R3_M1_H1_P2_BT
+- 7_1_Plt_R3_M3_H2_P7_BT
+- 7_1_Plt16_R2_M1_H2_P8_BT
+- 7_1_Plt8_R1_M2_H3_P2_BT
+- 6_30_Plt15_R2_M2_H1_5
+- 6_30_Plt16_M1_P8_H2_P8
 
-Blister
-Sheets: 11
-Sheet names:  7_20_Plt17_R2_M1_H1_P4_Blister, 7_20_Plt10_R2_M3_H3_P10_Blister, 7_20_Plt1_R1_M2_H3_P11_Blister, 7_19_Plt6_R1_M1_H2_P8_Blister, 7_19_Plt8_R1_M2_H3_P2_Blister, 7_19_Plt7_R1_m2_H1_P9_Blister, 7_21_Plt15_R2_M2_H1_P5_Blister, 7_21_Plt16_R2_M1_H2_P8_Blister, 7_22_Plt19_R3_H1_M1_P7_Blister, 7_22_Plt27_R3_M3_H1_P02_Blister, 7_22_Plt24_R3_M3_H3_P1_Blister
-  
-Milk Stage
-Sheets:   6
-Sheet names: 7-25-Plt7-P11, 7-25-Plt16-P08, 7-25_plt19_P2, 7-27-Plt1-P10, 7-28_Plt23_7, 7-28_Plt27_P2
- 
-Saturation Check
-7-2_Saturation_P1_11, 7_2_Saturation_Plt27_P3
+---
 
+### Tassel_Data.xlsx
+
+- **Format:** Excel (.xlsx)
+- **Sheets:** 14
+- **Rows:** 206
+- **Columns:** 296
+
+**Sheet Names**
+
+- 7_13_Plt5_R1_M1_H1_P11_Tsl
+- 7_13_Plt24_R3_M3_H3_P2_Tsl
+- 7_12_Plt15_R2_M2_H1_P5_Tsl
+- 7_12_Plt23_R3_M3_H2_P3_Tsl
+- 7_12_Plt19_R3_H1_M1_P2_Tsl
+- 7_10_Plt10_R2_M3_H3_P12_Tsl
+- 7_10_Plt6_R1_M1_H2_P8_Tsl
+- 7_10_Plt16_R2_M1_H2_P8_Tsl
+- 7_8_Plt24_R3_M3_H3_P2_Tsl
+- 7_8_Plt10_R2_M3_H3_P11_Tsl
+- 7_8_Plt1_R1_M2_H3_P1_Tsl
+- 7_7_Plt1_R1_M2_H3_P12_Tsl
+- 7_7_Plt6_R1_M1_H2_P8_Tsl
+- 7_7_Plt8_R1_M2_H3_P2_Tsl
+
+---
+
+### Blister.xlsx
+
+- **Format:** Excel (.xlsx)
+- **Sheets:** 11
+- **Rows:** 158
+- **Columns:** 296
+
+**Sheet Names**
+
+- 7_20_Plt17_R2_M1_H1_P4_Blister
+- 7_20_Plt10_R2_M3_H3_P10_Blister
+- 7_20_Plt1_R1_M2_H3_P11_Blister
+- 7_19_Plt6_R1_M1_H2_P8_Blister
+- 7_19_Plt8_R1_M2_H3_P2_Blister
+- 7_19_Plt7_R1_M2_H1_P9_Blister
+- 7_21_Plt15_R2_M2_H1_P5_Blister
+- 7_21_Plt16_R2_M1_H2_P8_Blister
+- 7_22_Plt19_R3_H1_M1_P7_Blister
+- 7_22_Plt27_R3_M3_H1_P02_Blister
+- 7_22_Plt24_R3_M3_H3_P1_Blister
+
+---
+
+### Milk_stage_data.xlsx
+
+- **Format:** Excel (.xlsx)
+- **Sheets:** 6
+- **Rows:** 87
+- **Columns:** 296
+
+**Sheet Names**
+
+- 7-25-Plt7-P11
+- 7-25-Plt16-P08
+- 7-25_plt19_P2
+- 7-27-Plt1-P10
+- 7-28_Plt23_7
+- 7-28_Plt27_P2
+
+---
+
+### Saturation_check.xlsx
+
+- **Format:** Excel (.xlsx)
+- **Sheets:** 2
+- **Rows:** 40
+- **Columns:** 296
+
+**Sheet Names**
+
+- 7-2_Saturation_P1_11
+- 7_2_Saturation_Plt27_P3
+
+---
 
 ### 2026-07-23-0940_light-dynamics (2).xlsx
 
@@ -134,6 +212,8 @@ Saturation Check
 
 - Light_Dynamics
 - Fluorometer
+
+
 
 
 ***Data for both Li600 and Li-6800***
@@ -158,7 +238,12 @@ Zone1_M2_starttime_11_23.dat
 Drafts
 Mehtodology Paper Draft.docx
 
-** Matlab Codes ** 
-Field Layout
-Anova Analysis
-Irrigation Scheduling 
+## 6. MATLAB Codes
+
+This folder contains MATLAB scripts developed for experimental design, data processing, statistical analysis, and irrigation management.
+
+| Script Category | Description |
+|:----------------|:------------|
+| **Field Layout** | MATLAB scripts used to generate and visualize the experimental field layout, including plot numbering, irrigation treatments, hybrid assignments, and barcode mapping. |
+| **ANOVA Analysis** | Scripts for statistical analysis of physiological and agronomic data, including treatment comparisons, factorial ANOVA, post-hoc multiple comparisons, and publication-quality figures. |
+| **Irrigation Scheduling** | MATLAB scripts for crop evapotranspiration (ET)-based irrigation scheduling, irrigation amount calculations, and soil moisture balance analyses. |
