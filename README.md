@@ -1,7 +1,7 @@
 
        # Rainout Shelter Maize Physiology Dataset
 
-This repository contains field and laboratory datasets collected during the 2026 maize rainout-shelter experiment. 
+This repository contains field datasets collected during the 2026 maize rainout-shelter experiment. 
 
 The main datasets were generated using:
 - LI-600 Porometer/Fluorometer
