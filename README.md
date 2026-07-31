@@ -1,130 +1,105 @@
 # Rainout Shelter Maize Physiology Dataset
 
-This repository contains field datasets collected during the 2026 maize rainout-shelter experiment.
+## Overview
 
-Rainout Shelter Maize Physiology Dataset│
-├── Overview
-├── Experimental Design
-├── Repository Structure
-├── Dataset Summary│
-├── 1. LI-600 Data│     
-         ├── Variables│     
-            ├── Recommended Files│   
-               ├── Complete Dataset Inventory│     
-                   ├── Excel Export│     
-                      ├── Daily Cleaned Files│     
-                               ├── Raw Dataset│    
-                                  └── Combined Dataset│
-├── 2. LI-6800 Data│     
-              ├── Dataset Summary│    
-                 ├── Pretasseling│    
-                  ├── Tasseling│     
-                  ├── Blister│    
-                 ├── Milk Stage│   
-                 ├── Saturation Check│    
-                └── Dynamic Light Dataset│
-├── 3. Paired LI-600 vs LI-6800 Dataset│
-├── 4. Soil Moisture Dataset│
-├── 5. MATLAB Codes│
-├── 6. Manuscript Drafts
+This repository contains datasets, MATLAB scripts, and manuscript drafts generated during the **2026 maize rainout shelter experiment** conducted at **Kansas State University**. 
+The experiment evaluated maize physiological responses to contrasting irrigation treatments using portable photosynthesis, porometry, chlorophyll fluorescence, and soil moisture measurements.
 
-## Repository Contents
+### Instruments Used
 
-Section
+- **LI-600** Porometer/Fluorometer
+- **LI-6800** Portable Photosynthesis System
+- **Campbell Scientific CS655** Soil Moisture Sensors
 
-Files
+---
 
-Description
+# Repository Structure
 
-LI-600 Data
+```text
+Rainout_Shelter/
+│
+├── README.md
+├── LI600/
+│   ├── Instrument Exports
+│   ├── Daily Cleaned Datasets
+│   ├── Combined Dataset
+│   ├── Raw Archive
+│   └── Excel Export
+│
+├── LI6800/
+│   ├── Pretasseling
+│   ├── Tasseling
+│   ├── Blister
+│   ├── Milk Stage
+│   ├── Saturation Check
+│   └── Dynamic Light
+│
+├── Validation/
+│
+├── Soil_Moisture/
+│
+├── MATLAB/
+│
+└── Drafts/
+```
 
-12
+---
 
-Porometer and chlorophyll fluorescence datasets
+# Experimental Design
 
-LI-6800 Data
+| Parameter | Description |
+|:----------|:------------|
+| **Crop** | Maize (*Zea mays* L.) |
+| **Location** | Kansas State University Rainout Shelter |
+| **Experimental Design** | Split-plot randomized complete block design |
+| **Replications** | 3 |
+| **Irrigation Treatments** | 100%, 75%, and 50% ET |
+| **Commercial Hybrids** | 3 |
+| **Experimental Plots** | 27 |
+| **Maximum Barcoded Plants** | 324 |
+| **Instruments** | LI-600, LI-6800, and CS655 |
 
-6
+---
 
-Gas exchange and A–Q curve datasets
+# Repository Contents
 
-Paired Validation
+| Folder | Files | Description |
+|:-------|------:|:------------|
+| **LI600** | 12 | Porometer and chlorophyll fluorescence datasets |
+| **LI6800** | 6 | Gas exchange and light-response (A–Q) datasets |
+| **Validation** | 2 | Paired LI-600 and LI-6800 measurements for instrument comparison |
+| **Soil_Moisture** | 2 | Campbell Scientific CS655 soil moisture datasets |
+| **MATLAB** | Multiple | MATLAB scripts for data processing, statistical analysis, visualization, and irrigation scheduling |
+| **Drafts** | 1 | Manuscript drafts and supporting documents |
 
-2
+---
 
-Same-plant LI-600 and LI-6800 observations
+# 1. LI-600 Dataset
 
-Soil Moisture
+The **LI-600** folder contains porometer and chlorophyll fluorescence measurements collected throughout the 2026 field experiment. The datasets include original instrument exports, cleaned daily files, Excel exports, and a combined analysis-ready dataset.
 
-2
+## Dataset Organization
 
-CS655 sensor measurements
+| Category | Description |
+|:---------|:------------|
+| **Instrument Exports** | Original data exported directly from the LI-600 instrument |
+| **Daily Cleaned Datasets** | Quality-controlled datasets separated by sampling date |
+| **Excel Export** | Spreadsheet version of the complete dataset |
+| **Raw Archive** | Original field collection workbook containing all sheets |
+| **Combined Dataset** | Final merged dataset prepared for statistical analyses |
 
-MATLAB Codes
+> **Important**
+>
+> LI-600 instrument exports are **cumulative** and contain overlapping observations. These files **should not be merged directly** without removing duplicate records.
 
-3 folders
+### Recommended Duplicate Key
 
-Processing and statistical analysis scripts
-
-Drafts
-
-1
-
-Manuscript drafts
-
-## Experimental Design
-
-Parameter
-
-Value
-
-Crop
-
-Maize (Zea mays L.)
-
-Experimental Site- Kansas State University Rainout Shelter
-
-Experimental Design Split-plot randomized complete block
-
-Replications 3
-
-Irrigation Treatments 100%, 75%, and 50% ET
-
-Hybrids 3
-
-Total Plots 27
-
-Plants per Plot Up to 12
-
-Maximum Barcoded Plants 324
-
-Instruments LI-600, LI-6800, CS655
-
-1. LI-600 Data
-
--File
-
--Rows
-
--Columns
-
--Unique Plants
-
--Plots Represented
-
--DATA_DUMP_1782759012237.csv
--DATA_DUMP_1784213332450.csv
--DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx
--LI600_Rain_out_All_Data_New.csv
--Data Collection.xlsx
-
+```text
+Barcode + Date + Time + gsw + PhiPS2 + ETR
+```
 
 These files contain overlapping or cumulative exports. They should not be stacked directly without duplicate removal.
 
-Recommended duplicate key:
-
-Barcode + Date + Time + gsw + PhiPS2 + ETR          
-                   
 ## Variables Included for Daily Full Plot Analysis (LI-600)
 
 Each record contains the following variables:
