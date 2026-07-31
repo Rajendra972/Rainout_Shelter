@@ -37,14 +37,28 @@ Recommended duplicate key:
 ```text
 Barcode + Date + Time + gsw + PhiPS2 + ETR          
                    
-##Data Useful for Daily full plot analysis: Li 600## 
-              
-              File                   UniquePlants    PlotsRepresented   
-    _________________________________    ____________    ________________  
+## Variables Included for Daily Full Plot Analysis (LI-600)
 
-    "DATA_DUMP_1782759012237.csv"            262                27           
-    "DATA_DUMP_1784213332450.csv"            253                27          
-    "LI600_Rain_out_All_Data_New.csv"        265                27          
+Each record contains the following variables:
+
+| Variable | Description |
+|:---------|:------------|
+| `Barcode` | Unique plant identifier |
+| `Date` | Measurement date |
+| `Time` | Measurement time |
+| `gsw` | Stomatal conductance to water vapor (mol m⁻² s⁻¹) |
+| `PhiPS2` | Effective quantum yield of Photosystem II (ΦPSII) |
+| `ETR` | Electron transport rate (µmol electrons m⁻² s⁻¹) |
+
+---
+
+## Data Useful for Daily Full Plot Analysis (LI-600)
+
+| File | Unique Plants | Plots Represented |
+|:-----|--------------:|------------------:|
+| `DATA_DUMP_1782759012237.csv` | 262 | 27 |
+| `DATA_DUMP_1784213332450.csv` | 253 | 27 |
+| `LI600_Rain_out_All_Data_New.csv` | 265 | 27 |
 
 
 
