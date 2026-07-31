@@ -304,7 +304,7 @@ This dataset combines all valid barcode-based LI-600 measurements into a single 
 
 ---
 
-### 2026-07-23-0940_light-dynamics (2).xlsx
+### 2026-07-23-0940_light-dynamics.xlsx
 
 - **Format:** Excel (.xlsx)
 - **Sheets:** 2
