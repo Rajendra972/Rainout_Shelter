@@ -123,8 +123,17 @@ Saturation Check
 7-2_Saturation_P1_11, 7_2_Saturation_Plt27_P3
 
 
-*Dyanamic Light Data* non-steady light intensity 
-"2026-07-23-0940_light-dynamics (2).xlsx"          ".xlsx"          2          121      296            0                 0 
+### 2026-07-23-0940_light-dynamics (2).xlsx
+
+- **Format:** Excel (.xlsx)
+- **Sheets:** 2
+- **Rows:** 121
+- **Columns:** 296
+
+**Sheet Names**
+
+- Light_Dynamics
+- Fluorometer
 
 
 ***Data for both Li600 and Li-6800***
