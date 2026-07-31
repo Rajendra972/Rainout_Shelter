@@ -22,11 +22,9 @@ The expected maximum number of uniquely barcoded plants was 324.
 
 # 1. LI-600 Data
 
-## 1.1 Files with the broadest field coverage
-
 | File | Rows | Columns | Unique plants | Plots represented |
-|---|---:|---:|---:|---:|
-| `DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
+
+|`DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
 | `DATA_DUMP_1784213332450.csv` | 3,766 | 257 | 253 | 27 |
 | `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | 11,604 | 257 | 265 | 27 |
 | `LI600_Rain_out_All_Data_New.csv` | 5,597 | 261 | 265 | 27 |
@@ -85,15 +83,14 @@ Barcode + Date + Time + gsw + PhiPS2 + ETR
 "LI600_Rain_out_All_Data_New.csv"                  ".csv"           1         5597      261          265                27  
 *TO UPDATE*
 
-# 1. LI-600 Data
 
-
-"Milk_stage_data.xlsx"                             ".xlsx"          6           87      296            0                 0    
+## 2. LI6800 Data 
 "Pretasseling.xlsx"                                ".xlsx"         11          176      296            0                 0  
-"Saturation_check.xlsx"                            ".xlsx"          2           40      296            0                 0 
 "Tassel_Data.xlsx"                                 ".xlsx"         14          206      296            0                 0 
- "Blister.xlsx"                                     ".xlsx"         11          158      296            0                 0 
+"Blister.xlsx"                                     ".xlsx"         11          158      296            0                 0 
+"Milk_stage_data.xlsx"                             ".xlsx"          6           87      296            0                 0
 
+"Saturation_check.xlsx"                            ".xlsx"          2           40      296            0                 0  
 
  Pre-tassel
 Sheets: 11
@@ -128,7 +125,7 @@ Saturation Check
 
 Data file
 LI600_PlantDays_30Plus.xlsx
-Includes plant having more than 30 data points per day
+Includes plants having more than 30 data points per day
 
 
 
