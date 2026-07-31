@@ -1,40 +1,193 @@
+Rainout Shelter Maize Physiology Dataset
 
-       # Rainout Shelter Maize Physiology Dataset
+Professional GitHub README (reorganized edition)
 
-This repository contains field datasets collected during the 2026 maize rainout-shelter experiment. 
+This repository contains datasets, MATLAB codes, and manuscript drafts generated from the 2026 maize rainout shelter experiment conducted at Kansas State University.
 
-The main datasets were generated using:
-- LI-600 Porometer/Fluorometer
-- LI-6800 Portable Photosynthesis System
-- MultiSpeQ
-- Dynamic-light-response measurements
+Table of Contents
 
-The experiment included:
-- 27 field plots
-- 3 replications
-- 3 intended moisture zones
-- 3 maize hybrids
-- Up to 12 plants per plot
-  
-The expected maximum number of uniquely barcoded plants was 324.
+Overview
 
----
+Experimental Design
 
-### 1. LI-600 Data
+Repository Structure
 
-| File | Rows | Columns | Unique Plants | Plots Represented |
-|:-----|-----:|--------:|--------------:|------------------:|
-| `DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
-| `DATA_DUMP_1784213332450.csv` | 3,766 | 257 | 253 | 27 |
-| `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | 11,604 | 257 | 265 | 27 |
-| `LI600_Rain_out_All_Data_New.csv` | 5,597 | 261 | 265 | 27 |
-| `Data Collection.xlsx` | 16,734 (7 sheets) | up to 378 | 257 | 27 |
+Repository Contents
+
+LI-600 Datasets
+
+LI-6800 Datasets
+
+Paired LI-600 & LI-6800 Validation
+
+Soil Moisture Data
+
+MATLAB Codes
+
+Manuscript Drafts
+
+   # Rainout Shelter Maize Physiology Dataset
+
+This repository contains field datasets collected during the 2026 maize rainout-shelter experiment.
+
+Rainout Shelter Maize Physiology Dataset│├── Overview├── Experimental Design├── Repository Structure├── Dataset Summary│├── 1. LI-600 Data│     ├── Variables│     ├── Recommended Files│     ├── Complete Dataset Inventory│     ├── Excel Export│     ├── Daily Cleaned Files│     ├── Raw Dataset│     └── Combined Dataset│├── 2. LI-6800 Data│     ├── Dataset Summary│     ├── Pretasseling│     ├── Tasseling│     ├── Blister│     ├── Milk Stage│     ├── Saturation Check│     └── Dynamic Light Dataset│├── 3. Paired LI-600 vs LI-6800 Dataset│├── 4. Soil Moisture Dataset│├── 5. MATLAB Codes│├── 6. Manuscript Drafts
+
+Repository Contents
+
+Section
+
+Files
+
+Description
+
+LI-600 Data
+
+12
+
+Porometer and chlorophyll fluorescence datasets
+
+LI-6800 Data
+
+6
+
+Gas exchange and A–Q curve datasets
+
+Paired Validation
+
+2
+
+Same-plant LI-600 and LI-6800 observations
+
+Soil Moisture
+
+2
+
+CS655 sensor measurements
+
+MATLAB Codes
+
+3 folders
+
+Processing and statistical analysis scripts
+
+Drafts
+
+1
+
+Manuscript drafts
+
+Experimental Design
+
+Parameter
+
+Value
+
+Crop
+
+Maize (Zea mays L.)
+
+Experimental Site
+
+Kansas State University Rainout Shelter
+
+Experimental Design
+
+Split-plot randomized complete block
+
+Replications
+
+3
+
+Irrigation Treatments
+
+100%, 75%, and 50% ET
+
+Hybrids
+
+3
+
+Total Plots
+
+27
+
+Plants per Plot
+
+Up to 12
+
+Maximum Barcoded Plants
+
+324
+
+Instruments
+
+LI-600, LI-6800, CS655
+
+1. LI-600 Data
+
+File
+
+Rows
+
+Columns
+
+Unique Plants
+
+Plots Represented
+
+DATA_DUMP_1782759012237.csv
+
+2,849
+
+378
+
+262
+
+27
+
+DATA_DUMP_1784213332450.csv
+
+3,766
+
+257
+
+253
+
+27
+
+DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx
+
+11,604
+
+257
+
+265
+
+27
+
+LI600_Rain_out_All_Data_New.csv
+
+5,597
+
+261
+
+265
+
+27
+
+Data Collection.xlsx
+
+16,734 (7 sheets)
+
+up to 378
+
+257
+
+27
 
 These files contain overlapping or cumulative exports. They should not be stacked directly without duplicate removal.
 
 Recommended duplicate key:
 
-```text
 Barcode + Date + Time + gsw + PhiPS2 + ETR          
                    
 ## Variables Included for Daily Full Plot Analysis (LI-600)
@@ -119,6 +272,20 @@ This dataset combines all valid barcode-based LI-600 measurements into a single 
 
 
 ## 2. LI-6800 Data
+## Primary Variables
+
+| Variable | Description |
+|:---------|:------------|
+| GasEx_A | Net photosynthetic rate |
+| GasEx_gsw | Stomatal conductance |
+| GasEx_Ci | Intercellular CO₂ concentration |
+| LeafQ_Qin | Incident PAR |
+| ChlF_PhiPS2 | Effective quantum yield |
+| ChlF_ETR | Electron transport rate |
+| ChlF_NPQ | Non-photochemical quenching |
+| LeafT_Tleaf | Leaf temperature |
+
+
 
 ### Pretasseling.xlsx
 
@@ -313,3 +480,7 @@ This folder contains MATLAB scripts developed for experimental design, data proc
 | **Field Layout** | MATLAB scripts used to generate and visualize the experimental field layout, including plot numbering, irrigation treatments, hybrid assignments, and barcode mapping. |
 | **ANOVA Analysis** | Scripts for statistical analysis of physiological and agronomic data, including treatment comparisons, factorial ANOVA, post-hoc multiple comparisons, and publication-quality figures. |
 | **Irrigation Scheduling** | MATLAB scripts for crop evapotranspiration (ET)-based irrigation scheduling, irrigation amount calculations, and soil moisture balance analyses. |
+
+
+
+
