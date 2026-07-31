@@ -124,7 +124,9 @@ Saturation Check
 7_22_Plt27_R3_M3_H1_P02_Blister (must be Incorrectly written P03 in li600 since barcode missed for P02)
 7_20_Plt17_R2_M1_H1_P4_Blister
 
-
+Data file
+LI600_PlantDays_30Plus.xlsx
+Includes plant having more than 30 data points per day
 
 
 
