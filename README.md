@@ -79,21 +79,44 @@ Each record contains the following variables:
 |:-----|:------:|------:|-----:|--------:|--------------:|------------------:|:------------------|:------|
 | `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | Excel (.xlsx) | 1 | 11,604 | 257 | 265 | 27 | 2026-07-08, 07-09, 07-11, 07-12, 07-13, 07-14 | Excel export of the complete LI-600 dataset for analysis. Contains the same measurements as the July CSV dataset in spreadsheet format. |
 
-***Daily Data Cleaned**
-"DATA_DUMP_1785116825020_clean_2026-07-19.csv"     ".csv"           1           33      124            2                 2 
-"DATA_DUMP_1785116825020_clean_2026-07-20.csv"     ".csv"           1          232      124            3                 3
-"DATA_DUMP_1785116825020_clean_2026-07-21.csv"     ".csv"           1          189      124            9                 8 
-"DATA_DUMP_1785116825020_clean_2026-07-22.csv"     ".csv"           1          171      124           12                11
-"DATA_DUMP_1785116825020_clean_2026-07-25.csv"     ".csv"           1          104      124            2                 2  
- "DATA_DUMP_1785116825020_clean_2026-07-26.csv"     ".csv"           1           78      124            2                 2  
+## Daily Cleaned LI-600 Datasets
 
- **Raw**
-"Data Collection.xlsx"                             ".xlsx"          7        16734      378          257                27
-"2026-06-12, 2026-06-15, 2026-06-16, 2026-06-17, 2026-06-18, 2026-06-19, 2026-06-20, 2026-06-23, 2026-06-24, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-06, 2026-07-07, 2026-07-08, 2026-07-09, 2026-07-11" 
+These files contain cleaned observations for individual sampling dates and are intended for day-specific analyses.
+
+| File | Format | Rows | Columns | Unique Plants | Plots Represented |
+|:-----|:------:|-----:|--------:|--------------:|------------------:|
+| `DATA_DUMP_1785116825020_clean_2026-07-19.csv` | CSV | 33 | 124 | 2 | 2 |
+| `DATA_DUMP_1785116825020_clean_2026-07-20.csv` | CSV | 232 | 124 | 3 | 3 |
+| `DATA_DUMP_1785116825020_clean_2026-07-21.csv` | CSV | 189 | 124 | 9 | 8 |
+| `DATA_DUMP_1785116825020_clean_2026-07-22.csv` | CSV | 171 | 124 | 12 | 11 |
+| `DATA_DUMP_1785116825020_clean_2026-07-25.csv` | CSV | 104 | 124 | 2 | 2 |
+| `DATA_DUMP_1785116825020_clean_2026-07-26.csv` | CSV | 78 | 124 | 2 | 2 |
+
+---
+
+## Raw LI-600 Dataset
+
+| File | Format | Sheets | Rows | Columns | Unique Plants | Plots Represented | Measurement Dates |
+|:-----|:------:|------:|-----:|--------:|--------------:|------------------:|:------------------|
+| `Data Collection.xlsx` | Excel (.xlsx) | 7 | 16,734 | 378 | 257 | 27 | 2026-06-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20, 06-23, 06-24, 06-26, 06-27, 06-28, 06-30, 07-01, 07-02, 07-03, 07-06, 07-07, 07-08, 07-09, 07-11 |
+
+---
+
+## Combined Analysis Dataset
+
+This dataset combines all valid barcode-based LI-600 measurements into a single analysis-ready file for whole-experiment analyses.
+
+| File | Format | Rows | Columns | Unique Plants | Plots Represented |
+|:-----|:------:|-----:|--------:|--------------:|------------------:|
+| `LI600_Rain_out_All_Data_New.csv` | CSV | 5,597 | 261 | 265 | 27 |
+
+**Recommended uses**
+- Whole-experiment statistical analyses
+- Hybrid × irrigation comparisons
+- Plot-level summaries
+- Daily physiological response analyses
 
 
-"LI600_Rain_out_All_Data_New.csv"                  ".csv"           1         5597      261          265                27  
-*TO UPDATE*
 
 ## 2. LI-6800 Data
 
@@ -216,27 +239,70 @@ Each record contains the following variables:
 
 
 
-***Data for both Li600 and Li-6800***
-7_20_Plt10_R2_M3_H3_P10_Blister
-7_21_Plt15_R2_M2_H1_P5_Blister
-7_21_Plt16_R2_M1_H2_P8_Blister
-7_20_Plt17_R2_M1_H1_P4_Blister
-7_22_Plt27_R3_M3_H1_P02_Blister 
-7_20_Plt17_R2_M1_H1_P4_Blister
+## 3. Paired LI-600 and LI-6800 Validation Dataset
 
-Data file
-LI600_PlantDays_30Plus.xlsx
-Includes plants having more than 30 data points per day
+This dataset contains paired measurements collected on the **same maize plants** using both the **LI-600 Porometer/Fluorometer** and the **LI-6800 Portable Photosynthesis System**. These data are intended for direct instrument comparison and validation analyses.
+
+### Paired LI-6800 Measurements
+
+| LI-6800 Sheet |
+|:--------------|
+| `7_20_Plt10_R2_M3_H3_P10_Blister` |
+| `7_21_Plt15_R2_M2_H1_P5_Blister` |
+| `7_21_Plt16_R2_M1_H2_P8_Blister` |
+| `7_20_Plt17_R2_M1_H1_P4_Blister` |
+| `7_22_Plt27_R3_M3_H1_P02_Blister` |
 
 
 
+---
 
-** Soil Moisture Data 
-all_starttime_11_36_new_06_30.dat
-Zone1_M2_starttime_11_23.dat
+### Corresponding LI-600 Dataset
 
-Drafts
-Mehtodology Paper Draft.docx
+| File | Format | Description |
+|:-----|:------:|:------------|
+| `LI600_PlantDays_30Plus.xlsx` | Excel (.xlsx) | Contains LI-600 measurements from plants with **30 or more observations per day**, corresponding to the paired LI-6800 measurements used for cross-instrument comparison. |
+
+### Intended Use
+
+- Same-plant LI-600 vs LI-6800 comparison
+- Cross-instrument physiological validation
+- Estimation of relationships between stomatal conductance, chlorophyll fluorescence, and gas exchange
+- Method development and calibration analyses
+
+
+# 4. Soil Moisture Data
+
+Soil volumetric water content (VWC) was monitored continuously using **Campbell Scientific CS655** soil moisture sensors installed in the experimental field. These datasets were used to verify irrigation treatments and characterize soil water dynamics throughout the growing season.
+
+| File | Format | Description |
+|:-----|:------:|:------------|
+| `all_starttime_11_36_new_06_30.dat` | Campbell Scientific `.dat` | Complete soil moisture dataset containing measurements from all installed CS655 sensors throughout the monitoring period. |
+| `Zone1_M2_starttime_11_23.dat` | Campbell Scientific `.dat` | Soil moisture measurements from the Zone 1 sensor installed in the M2 (75% ET) irrigation treatment. |
+
+### Measured Variables
+
+- Timestamp
+- Volumetric Water Content (VWC)
+- Soil Temperature
+- Electrical Conductivity (EC)
+- Sensor diagnostics (if available)
+
+### Intended Use
+
+- Irrigation treatment verification
+- Daily soil moisture dynamics
+- Water availability analysis
+- Environmental covariate for LI-600 and LI-6800 physiological measurements
+
+## 5. Drafts
+
+This folder contains manuscript drafts and supporting documents related to the research project.
+
+| File | Format | Description |
+|:-----|:------:|:------------|
+| `Methodology_Paper_Draft.docx` | Microsoft Word (.docx) | Working draft of the methodology manuscript describing the experimental design, instrumentation (LI-600 and LI-6800), data processing workflow, validation approach, and planned analyses. |
+
 
 ## 6. MATLAB Codes
 
