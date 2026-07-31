@@ -135,6 +135,8 @@ Includes plants having more than 30 data points per day
 all_starttime_11_36_new_06_30.dat
 Zone1_M2_starttime_11_23.dat
 
+Drafts
+Mehtodology Paper Draft.docx
 
 ** Matlab Codes ** 
 Field Layout
