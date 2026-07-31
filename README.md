@@ -1,7 +1,5 @@
 Rainout Shelter Maize Physiology Dataset
 
-Professional GitHub README (reorganized edition)
-
 This repository contains datasets, MATLAB codes, and manuscript drafts generated from the 2026 maize rainout shelter experiment conducted at Kansas State University.
 
 Table of Contents
