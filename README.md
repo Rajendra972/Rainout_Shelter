@@ -20,6 +20,8 @@ The experiment evaluated maize physiological responses to contrasting irrigation
 Rainout_Shelter/
 │
 ├── README.md
+├── Experimental Design/
+├── Repository Contents/
 ├── LI600/
 │   ├── Instrument Exports
 │   ├── Daily Cleaned Datasets
