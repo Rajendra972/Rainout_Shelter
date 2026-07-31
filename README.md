@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains datasets, MATLAB scripts, and manuscript drafts generated during the **2026 maize rainout shelter experiment** conducted at **Kansas State University**. 
-The experiment evaluated maize physiological responses to contrasting irrigation treatments using portable photosynthesis, porometry, chlorophyll fluorescence, and soil moisture measurements.
+The experiment evaluated maize physiological responses to contrasting irrigation treatments using portable photosynthesis, porometry, chlorophyll fluorescence, mutlispeq and soil moisture sensors.
 
 ### Instruments Used
 
