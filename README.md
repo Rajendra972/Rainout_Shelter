@@ -120,7 +120,7 @@ Saturation Check
 7_21_Plt15_R2_M2_H1_P5_Blister
 7_21_Plt16_R2_M1_H2_P8_Blister
 7_20_Plt17_R2_M1_H1_P4_Blister
-7_22_Plt27_R3_M3_H1_P02_Blister (Incorrectly written as P03 in li600 since barcode missed for P02)
+7_22_Plt27_R3_M3_H1_P02_Blister 
 7_20_Plt17_R2_M1_H1_P4_Blister
 
 Data file
