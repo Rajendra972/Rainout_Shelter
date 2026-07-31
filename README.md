@@ -102,7 +102,7 @@ Sheet names: 7_13_Plt5_R1_M1_H1_P11_Tsl, 7_13_Plt24_R3_M3_H3_P2_Tsl, 7_12_Plt15_
 
 Blister
 Sheets: 11
-Sheet names:  7_20_Plt17_R2_M1_H1_P4_Blister, 7_20_Plt10_R2_M3_H3_P10_Blister, 7_20_Plt1_R1_M2_H3_P11_Blister, 7_19_Plt6_R1_M1_H2_P8_Blister, 7_19_Plt8_R1_M2_H3_P2_Blister, 7_19_Plt7_R1_m2_H1_P9_Blister, 7_21_Plt15_R2_M2_H1_P5_Blister, 7_21_Plt16_R2_M1_H2_P8_Blister, 7_22_Plt19_R3_H1_M1_P7_Blister, 7_22_Plt27_R3_M3_H1_P03_Blister, 7_22_Plt24_R3_M3_H3_P1_Blister
+Sheet names:  7_20_Plt17_R2_M1_H1_P4_Blister, 7_20_Plt10_R2_M3_H3_P10_Blister, 7_20_Plt1_R1_M2_H3_P11_Blister, 7_19_Plt6_R1_M1_H2_P8_Blister, 7_19_Plt8_R1_M2_H3_P2_Blister, 7_19_Plt7_R1_m2_H1_P9_Blister, 7_21_Plt15_R2_M2_H1_P5_Blister, 7_21_Plt16_R2_M1_H2_P8_Blister, 7_22_Plt19_R3_H1_M1_P7_Blister, 7_22_Plt27_R3_M3_H1_P02_Blister, 7_22_Plt24_R3_M3_H3_P1_Blister
   
 Milk Stage
 Sheets:   6
@@ -114,6 +114,16 @@ Saturation Check
 
 *Dyanamic Light Data* non-steady light intensity 
 "2026-07-23-0940_light-dynamics (2).xlsx"          ".xlsx"          2          121      296            0                 0 
+
+
+***Data for both Li600 and Li-6800***
+7_20_Plt10_R2_M3_H3_P10_Blister
+7_21_Plt15_R2_M2_H1_P5_Blister
+7_21_Plt16_R2_M1_H2_P8_Blister
+7_20_Plt17_R2_M1_H1_P4_Blister
+7_22_Plt27_R3_M3_H1_P02_Blister (must be Incorrectly written P03 in li600 since barcode missed for P02)
+7_20_Plt17_R2_M1_H1_P4_Blister
+
 
 
 
