@@ -85,7 +85,9 @@ Barcode + Date + Time + gsw + PhiPS2 + ETR
 "LI600_Rain_out_All_Data_New.csv"                  ".csv"           1         5597      261          265                27  
 *TO UPDATE*
 
- **LICOR 6800 Data Set**
+# 1. LI-600 Data
+
+
 "Milk_stage_data.xlsx"                             ".xlsx"          6           87      296            0                 0    
 "Pretasseling.xlsx"                                ".xlsx"         11          176      296            0                 0  
 "Saturation_check.xlsx"                            ".xlsx"          2           40      296            0                 0 
