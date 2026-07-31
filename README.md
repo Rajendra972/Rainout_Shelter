@@ -37,7 +37,7 @@ Recommended duplicate key:
 ```text
 Barcode + Date + Time + gsw + PhiPS2 + ETR          
                    
-Data Useful for Daily full plot analysis: Li 600
+##Data Useful for Daily full plot analysis: Li 600## 
               
               File                   UniquePlants    PlotsRepresented   
     _________________________________    ____________    ________________  
