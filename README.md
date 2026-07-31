@@ -15,7 +15,7 @@ The experiment included:
 - 3 intended moisture zones
 - 3 maize hybrids
 - Up to 12 plants per plot
-
+  
 The expected maximum number of uniquely barcoded plants was 324.
 
 ---
