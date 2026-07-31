@@ -28,9 +28,33 @@ Manuscript Drafts
 
 This repository contains field datasets collected during the 2026 maize rainout-shelter experiment.
 
-Rainout Shelter Maize Physiology Dataset│├── Overview├── Experimental Design├── Repository Structure├── Dataset Summary│├── 1. LI-600 Data│     ├── Variables│     ├── Recommended Files│     ├── Complete Dataset Inventory│     ├── Excel Export│     ├── Daily Cleaned Files│     ├── Raw Dataset│     └── Combined Dataset│├── 2. LI-6800 Data│     ├── Dataset Summary│     ├── Pretasseling│     ├── Tasseling│     ├── Blister│     ├── Milk Stage│     ├── Saturation Check│     └── Dynamic Light Dataset│├── 3. Paired LI-600 vs LI-6800 Dataset│├── 4. Soil Moisture Dataset│├── 5. MATLAB Codes│├── 6. Manuscript Drafts
+Rainout Shelter Maize Physiology Dataset│
+├── Overview
+├── Experimental Design
+├── Repository Structure
+├── Dataset Summary│
+├── 1. LI-600 Data│     
+         ├── Variables│     
+            ├── Recommended Files│   
+               ├── Complete Dataset Inventory│     
+                   ├── Excel Export│     
+                      ├── Daily Cleaned Files│     
+                               ├── Raw Dataset│    
+                                  └── Combined Dataset│
+├── 2. LI-6800 Data│     
+              ├── Dataset Summary│    
+                 ├── Pretasseling│    
+                  ├── Tasseling│     
+                  ├── Blister│    
+                 ├── Milk Stage│   
+                 ├── Saturation Check│    
+                └── Dynamic Light Dataset│
+├── 3. Paired LI-600 vs LI-6800 Dataset│
+├── 4. Soil Moisture Dataset│
+├── 5. MATLAB Codes│
+├── 6. Manuscript Drafts
 
-Repository Contents
+## Repository Contents
 
 Section
 
