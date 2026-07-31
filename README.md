@@ -1,30 +1,4 @@
-Rainout Shelter Maize Physiology Dataset
-
-This repository contains datasets, MATLAB codes, and manuscript drafts generated from the 2026 maize rainout shelter experiment conducted at Kansas State University.
-
-Table of Contents
-
-Overview
-
-Experimental Design
-
-Repository Structure
-
-Repository Contents
-
-LI-600 Datasets
-
-LI-6800 Datasets
-
-Paired LI-600 & LI-6800 Validation
-
-Soil Moisture Data
-
-MATLAB Codes
-
-Manuscript Drafts
-
-   # Rainout Shelter Maize Physiology Dataset
+# Rainout Shelter Maize Physiology Dataset
 
 This repository contains field datasets collected during the 2026 maize rainout-shelter experiment.
 
@@ -98,7 +72,7 @@ Drafts
 
 Manuscript drafts
 
-Experimental Design
+## Experimental Design
 
 Parameter
 
@@ -108,103 +82,42 @@ Crop
 
 Maize (Zea mays L.)
 
-Experimental Site
+Experimental Site- Kansas State University Rainout Shelter
 
-Kansas State University Rainout Shelter
+Experimental Design Split-plot randomized complete block
 
-Experimental Design
+Replications 3
 
-Split-plot randomized complete block
+Irrigation Treatments 100%, 75%, and 50% ET
 
-Replications
+Hybrids 3
 
-3
+Total Plots 27
 
-Irrigation Treatments
+Plants per Plot Up to 12
 
-100%, 75%, and 50% ET
+Maximum Barcoded Plants 324
 
-Hybrids
-
-3
-
-Total Plots
-
-27
-
-Plants per Plot
-
-Up to 12
-
-Maximum Barcoded Plants
-
-324
-
-Instruments
-
-LI-600, LI-6800, CS655
+Instruments LI-600, LI-6800, CS655
 
 1. LI-600 Data
 
-File
+-File
 
-Rows
+-Rows
 
-Columns
+-Columns
 
-Unique Plants
+-Unique Plants
 
-Plots Represented
+-Plots Represented
 
-DATA_DUMP_1782759012237.csv
+-DATA_DUMP_1782759012237.csv
+-DATA_DUMP_1784213332450.csv
+-DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx
+-LI600_Rain_out_All_Data_New.csv
+-Data Collection.xlsx
 
-2,849
-
-378
-
-262
-
-27
-
-DATA_DUMP_1784213332450.csv
-
-3,766
-
-257
-
-253
-
-27
-
-DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx
-
-11,604
-
-257
-
-265
-
-27
-
-LI600_Rain_out_All_Data_New.csv
-
-5,597
-
-261
-
-265
-
-27
-
-Data Collection.xlsx
-
-16,734 (7 sheets)
-
-up to 378
-
-257
-
-27
 
 These files contain overlapping or cumulative exports. They should not be stacked directly without duplicate removal.
 
@@ -275,7 +188,7 @@ These files contain cleaned observations for individual sampling dates and are i
 |:-----|:------:|------:|-----:|--------:|--------------:|------------------:|:------------------|
 | `Data Collection.xlsx` | Excel (.xlsx) | 7 | 16,734 | 378 | 257 | 27 | 2026-06-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20, 06-23, 06-24, 06-26, 06-27, 06-28, 06-30, 07-01, 07-02, 07-03, 07-06, 07-07, 07-08, 07-09, 07-11 |
 
----
+
 
 ## Combined Analysis Dataset
 
