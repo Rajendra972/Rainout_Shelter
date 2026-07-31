@@ -10,6 +10,7 @@ The experiment evaluated maize physiological responses to contrasting irrigation
 - **LI-600** Porometer/Fluorometer
 - **LI-6800** Portable Photosynthesis System
 - **Campbell Scientific CS655** Soil Moisture Sensors
+- **Multispeq**
 
 ---
 
