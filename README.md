@@ -20,15 +20,15 @@ The expected maximum number of uniquely barcoded plants was 324.
 
 ---
 
-# 1. LI-600 Data
+### 1. LI-600 Data
 
-| File | Rows | Columns | Unique plants | Plots represented |
-
-|`DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
+| File | Rows | Columns | Unique Plants | Plots Represented |
+|:-----|-----:|--------:|--------------:|------------------:|
+| `DATA_DUMP_1782759012237.csv` | 2,849 | 378 | 262 | 27 |
 | `DATA_DUMP_1784213332450.csv` | 3,766 | 257 | 253 | 27 |
 | `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | 11,604 | 257 | 265 | 27 |
 | `LI600_Rain_out_All_Data_New.csv` | 5,597 | 261 | 265 | 27 |
-| `Data Collection.xlsx` | 16,734 across 7 sheets | up to 378 | 257 | 27 |
+| `Data Collection.xlsx` | 16,734 (7 sheets) | up to 378 | 257 | 27 |
 
 These files contain overlapping or cumulative exports. They should not be stacked directly without duplicate removal.
 
