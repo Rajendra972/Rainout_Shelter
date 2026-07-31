@@ -61,26 +61,23 @@ Each record contains the following variables:
 | `LI600_Rain_out_All_Data_New.csv` | 265 | 27 |
 
 
+## Complete LI-600 Dataset Inventory
 
-          File                                      FileType    SheetCount    Rows     Columns    UniquePlants    PlotsRepresented             
-"DATA_DUMP_1781531064037.csv"                      ".csv"           1          245      378            0                 0
-06-12 
+| File | Format | Sheets | Rows | Columns | Unique Plants | Plots Represented | Measurement Dates | Notes |
+|:-----|:------:|------:|-----:|--------:|--------------:|------------------:|:------------------|:------|
+| `DATA_DUMP_1781531064037.csv` | CSV | 1 | 245 | 378 | 0 | 0 | 2026-06-12 | Initial field data collected before plant barcodes were implemented. |
+| `DATA_DUMP_1782135968065.csv` | CSV | 1 | 1,119 | 378 | 0 | 0 | 2026-06-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20 | Field data collected before barcode setup. |
+| `DATA_DUMP_1782759012237.csv` | CSV | 1 | 2,849 | 378 | 262 | 27 | 2026-06-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20, 06-23, 06-24, 06-26, 06-27, 06-28 | First complete barcode-based dataset covering all experimental plots. |
+| `DATA_DUMP_1783863517464.csv` | CSV | 1 | 1,009 | 257 | 16 | 4 | 2026-07-08, 07-09, 07-11 | Partial dataset. |
+| `DATA_DUMP_1784213332450.csv` | CSV | 1 | 3,766 | 257 | 253 | 27 | 2026-07-08, 07-09, 07-11, 07-12, 07-13, 07-14 | Complete daily dataset covering all experimental plots. |
 
-"DATA_DUMP_1782135968065.csv"                      ".csv"           1         1119      378            0                 0                  
-06-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20                                                                                  field data before barcode setup in each plant
+---
 
-"DATA_DUMP_1782759012237.csv"                      ".csv"           1         2849      378          262                27  
-6-12, 06-15, 06-16, 06-17, 06-18, 06-19, 06-20, 06-23, 06-24, 06-26, 06-27, 06-28   
+## Excel Export
 
-"DATA_DUMP_1783863517464.csv"                      ".csv"           1         1009      257           16                 4   
-"2026-07-08, 2026-07-09, 2026-07-11"   
-
-"DATA_DUMP_1784213332450.csv"                      ".csv"           1         3766      257          253                27
-"2026-07-08, 2026-07-09, 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14"
-
-"DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx"    ".xlsx"          1        11604      257          265                27 
-******"2026-07-08, 2026-07-09, 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14**    
-
+| File | Format | Sheets | Rows | Columns | Unique Plants | Plots Represented | Measurement Dates | Notes |
+|:-----|:------:|------:|-----:|--------:|--------------:|------------------:|:------------------|:------|
+| `DATA_DUMP_1785116825020.xlsx_suraz_LI600.xlsx` | Excel (.xlsx) | 1 | 11,604 | 257 | 265 | 27 | 2026-07-08, 07-09, 07-11, 07-12, 07-13, 07-14 | Excel export of the complete LI-600 dataset for analysis. Contains the same measurements as the July CSV dataset in spreadsheet format. |
 
 ***Daily Data Cleaned**
 "DATA_DUMP_1785116825020_clean_2026-07-19.csv"     ".csv"           1           33      124            2                 2 
