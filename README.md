@@ -215,7 +215,7 @@ This dataset combines all valid barcode-based LI-600 measurements into a single 
 - 7_2_Plt1_R1_M2_H3_P12_BT
 - 7_2_Plt10_R2_M3_H3_P11_BT
 - 7_2_Plt19_R3_M1_H1_P2_BT
-- 7_1_Plt_R3_M3_H2_P7_BT
+- 7_1_Plt23_R3_M3_H2_P7_BT
 - 7_1_Plt16_R2_M1_H2_P8_BT
 - 7_1_Plt8_R1_M2_H3_P2_BT
 - 6_30_Plt15_R2_M2_H1_5
