@@ -399,3 +399,50 @@ This folder contains MATLAB scripts developed for experimental design, data proc
 Growth and Development: survey form dataset(.xlsx)
 
 
+QC Filtered Datasets
+| Stage            | Sheet                             | Decision                    |
+| ---------------- | --------------------------------- | --------------------------- |
+| **Pretasseling** | `7_3_Plt23_R3_M3_H2_P3_BT`        | ✅ KEEP                      |
+|                  | `7_3_Plt_17_R2_M1_H1_P4_BT`       | ✅ KEEP                      |
+|                  | `7_3_Plt7_R1_M2_H1_P8_BT`         | ✅ KEEP — excellent exemplar |
+|                  | `7_2_Plt19_R3_M1_H1_P2_BT`        | ✅ KEEP                      |
+|                  | `7_1_Plt23__R3_M3_H2_P7_BT`       | ✅ KEEP                      |
+|                  | `6_30_Plt_15_R2_M2_H1_5`          | ✅ KEEP                      |
+| **Tasseling**    | `7_13_Plt24_R3_M3_H3_P2_Tsl`      | ✅ KEEP                      |
+|                  | `7_12_Plt15_R2_M2_H1_P5_Tsl`      | ✅ KEEP                      |
+|                  | `7_12_Plt23_R3_M3_H2_P3_Tsl`      | ✅ KEEP                      |
+|                  | `7_12_Plt19_R3_H1_M1_P2_Tsl`      | ✅ KEEP                      |
+|                  | `7_10_Plt10_R2_M3_H3_P12_Tsl`     | ✅ KEEP                      |
+|                  | `7_10_Plt16_R2_M1_H2_P8_Tsl`      | ✅ KEEP                      |
+|                  | `7_8_Plt24_R3_M3_H3_P2_Tsl`       | ✅ KEEP                      |
+|                  | `7_8_Plt10_R2_M3_H3_P11_Tsl`      | ✅ KEEP                      |
+|                  | `7_8_Plt1_R1_M2_H3_P1_Tsl`        | ✅ KEEP                      |
+|                  | `7_7_Plt6_R1_M1_H2_P8_Tsl`        | ✅ KEEP                      |
+| **Blister**      | `7_20_Plt17_R2_M1_H1_P4_Blister`  | ✅ KEEP                      |
+|                  | `7_20_Plt10_R2_M3_H3_P10_Blister` | ✅ KEEP                      |
+|                  | `7_20_Plt1_R1_M2_H3_P11_Blister`  | ✅ KEEP                      |
+|                  | `7_19_Plt6_R1_M1_H2_P8_Blister`   | ✅ KEEP                      |
+|                  | `7_19_Plt7_R1_m2_H1_P9_Blister`   | ✅ KEEP                      |
+|                  | `7_21_Plt15_R2_M2_H1_P5_Blister`  | ✅ KEEP                      |
+|                  | `7_21_Plt16_R2_M1_H2_P8_Blister`  | ✅ KEEP                      |
+|                  | `7_22_Plt19_R3_H1_M1_P7_Blister`  | ✅ KEEP                      |
+|                  | `7_22_Plt27_R3_M3_H1_P02_Blister` | ✅ KEEP                      |
+|                  | `7_22_Plt24_R3_M3_H3_P1_Blister`  | ✅ KEEP                      |
+| **Milk**         | `7-25-Plt7-P11`                   | ✅ KEEP                      |
+|                  | `7-25-Plt16-P08`                  | ✅ KEEP                      |
+|                  | `7-25_plt19_H3`                   | ✅ KEEP                      |
+|                  | `7-27-Plt1-P10`                   | ✅ KEEP                      |
+|                  | `7-28_Plt23_7`                    | ✅ KEEP                      |
+| **Dent**         | `8-06-Plt27-R3-M3-H1-P2_Dent`     | ✅ KEEP                      |
+|                  | `8-06-Plt24-M3-H3-P1-dent`        | ✅ KEEP                      |
+|                  | `2026-08-06-1015_Plt23-R3-M3-H2-` | ✅ KEEP                      |
+|                  | `8-06-Plt19-R3_M1_H1_P2_Dent`     | ✅ KEEP                      |
+|                  | `8-05-Plt17-R2-M1-H1-P4-Dent`     | ✅ KEEP                      |
+|                  | `8-05-Plt15-R2-M2-P5-Dent`        | ✅ KEEP                      |
+|                  | `8-04-Plt8-R1-M2-H3-P02`          | ✅ KEEP                      |
+|                  | `8-04-Plt7-R1-M2_H1_P8`           | ✅ KEEP                      |
+|                  | `8-04-Plt6-R1-M1-H2-P8-Dent`      | ✅ KEEP                      |
+|                  | `08-04-Plt1-R1-M2-H3-P11`         | ✅ KEEP                      |
+
+
+
