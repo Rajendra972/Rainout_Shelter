@@ -282,12 +282,12 @@ This dataset combines all valid barcode-based LI-600 measurements into a single 
 
 **Sheet Names**
 
-- 7-25-Plt7-P11
-- 7-25-Plt16-P08
-- 7-25_plt19_P2
-- 7-27-Plt1-P10
-- 7-28_Plt23_7
-- 7-28_Plt27_P2
+- 7-25-Plt7-R1-M2-H1-P11
+- 7-25-Plt16-R2-M1-H2-P08
+- 7-25_plt19-R3-M1-H1-P2
+- 7-27-Plt1-R1-M2-H1-P10
+- 7-28_Plt23-R3-M3-H2-P7
+- 7-28_Plt27-R3-M3-H1-P2
 
 ---
 
