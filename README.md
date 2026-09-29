@@ -59,6 +59,7 @@ Rainout_Shelter/
 | **Replications** | 3 |
 | **Irrigation Treatments** | 100%, 75%, and 50% ET |
 | **Commercial Hybrids** | 3: P1151AM, DKC65-95RIB, Channel ® 214-78DGVT2PRIB |
+| **Sowing Data: May 2; Emergence Date: May 12|
 | **Experimental Plots** | 27 |
 | **Maximum Barcoded Plants** | 324 |
 | **Instruments** | LI-600, LI-6800, and CS655 |
